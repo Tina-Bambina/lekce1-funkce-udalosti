@@ -11,6 +11,7 @@ document.querySelector("#vysledek").innerHTML = secti(4, 5);
 function secti(a, b) {
   let c = a + b;
   return c;
+
 }
 
 /**
@@ -18,4 +19,11 @@ function secti(a, b) {
  */
 function upozorni() {
   alert("Gratulace, právě jsi spustila tuto funkci!");
+  console.log("#vysledek");
 }
+
+function zmenBarvu()
+{
+  document.querySelector('.ctverecek').style.backgroundColor = 'green';
+}
+
