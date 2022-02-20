@@ -18,11 +18,10 @@ function secti(a, b) {
 function upozorni() {
   alert('Gratulace, právě jsi spustila tuto funkci!');
   console.log('Gratulace, právě jsi spustila tuto funkci!');
-  let ctv =  document.getElementsByClass('.ctverecek')[0].
-  ctv.innerHTML = 'Gratulace, konecne'; //nemeni mi to text ctverecku a uz opravdu nevim proc
   
-  //potom by nasledovalo: 
-  //ctv.style.width = '400px';
+  let squa = document.querySelector('.ctverecek');
+  squa.textContent = 'Gratulace, právě jsi spustila tuto funkci!'
+  squa.style.width = '400px';
 }
 
 function zmenBarvu()
